@@ -8,11 +8,10 @@ public class Main extends PApplet {
 
 	public static void main(String[] args) {
 		PApplet.main(Main.class.getName());
-
 	}
 
-	public void setttings() {
-		size(1000, 1000);
+	public void settings() {
+		size(500, 500);
 	}
 
 	public void setup() {

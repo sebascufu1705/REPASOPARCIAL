@@ -39,6 +39,12 @@ public class Logica {
 	}
 	public void pintar() {
 		app.background(0);
+		for (int i = 0; i < arregloBolitas.size(); i++) {
+			Bolita temp = arregloBolitas.get(i);
+			temp.pintar();
+			
+		}
+		
 		
 	}
 
